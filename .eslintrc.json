@@ -1,16 +1,17 @@
 {
-  "env": {
-    "jquery": true,
-    "amd": true,
-    "browser":true,
-    "node": true,
-    "es6": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": false
+    "env": {
+        "jquery": true,
+        "amd": true,
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "markdown": false
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": false
+        }
     }
-  }
 }
