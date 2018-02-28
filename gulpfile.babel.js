@@ -59,7 +59,7 @@ export function moveHtml() {
 }
 
 export function moveJs() {
-    return gulp.src([JSSRC, '!./src/js/config.js', '!./src/js/pimrequest.js'])
+    return gulp.src([JSSRC]) // if you want to exclude files, put !filename in the array and they will be excluded
         .pipe(gulp.dest(TRANSPILE))
 }
 export function moveMedia() {
