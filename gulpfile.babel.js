@@ -23,11 +23,13 @@ const DIST = './dist'
 const TRANSPILE = './transpile'
 const BUILD = './build'
 let currentBuild = "DEV"
+// Edit the next four variable values specific to the project
 const appName = "[REPLACE WITH APP NAME]";
+const devUrl = "[DEV Url]";
+const prodUrl = "[PROD Url]";
+const testUrl = "[TEST Url]";
+
 const siteAssetsDir = "SiteAssets/" + appName;
-const devUrl = "http://spdev/apps/salesorder";
-const prodUrl = "http://reinfonet/apps/salesorder";
-const testUrl = "http://reinfonet/apps/salesorder/testing";
 
 
 // COMMON BUILD TASKS
